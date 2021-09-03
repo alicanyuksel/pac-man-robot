@@ -1,8 +1,8 @@
 import unittest
 from robot import B_VZXR
 
-instruction_test_file = "./instruction_test.txt"
-universe_test_file = "./universe_test.txt"
+instruction_test_file = "./test/instruction_test.txt"
+universe_test_file = "./test/universe_test.txt"
 
 
 class TestRobot(unittest.TestCase):
