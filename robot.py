@@ -85,7 +85,7 @@ class B_VZXR:
             universe_text = f.read().replace("\n", "")
             self.width, self.height = re.findall(r'\d+', universe_text)
 
-    def get_location(self):
+    def get_location(self) -> tuple:
         """
         To get the current location.
         :return: tuple of the position x and y.
