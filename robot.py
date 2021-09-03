@@ -125,25 +125,17 @@ class B_VZXR:
         self.add_instruction_completed(instruction)
 
         if self.robot_head == 1:
-            if self.position_y == int(self.height) - 1:
-                pass
-            else:
+            if self.position_y != int(self.height) - 1:
                 self.position_y += 1
 
         elif self.robot_head == 3:
-            if self.position_y == 0:
-                pass
-            else:
+            if self.position_y != 0:
                 self.position_y -= 1
 
         elif self.robot_head == 2:
-            if self.position_x == int(self.width) - 1:
-                pass
-            else:
+            if self.position_x != int(self.width) - 1:
                 self.position_x += 1
-
+                
         elif self.robot_head == 4:
-            if self.position_x == 0:
-                pass
-            else:
+            if self.position_x != 0:
                 self.position_x -= 1
