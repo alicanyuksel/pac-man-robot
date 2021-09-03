@@ -50,7 +50,7 @@ class B_VZXR:
 
     def execute_instruction_function(self, instruction: str) -> None:
         """
-        To find the result.
+        To execute the function depending on the instruction in input.
 
         :param instruction: instruction string
         :return:
